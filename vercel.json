@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "http://www.hrwiki.org/wiki/Edgar#Edga_Jr.",
+      "permanent": false
+    }
+  ]
+}
