@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "http://www.hrwiki.org/wiki/Edgar#Edga_Jr.",
+      "permanent": false
+    }
+  ]
+}
