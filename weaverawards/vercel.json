@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https//awards.weareweavers.org",
+      "destination": "https://awards.weareweavers.org",
       "permanent": false
     }
   ]
