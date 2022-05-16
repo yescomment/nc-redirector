@@ -1,5 +1,0 @@
-{
-  "routes": [
-    { "src": "/", "status": 301, "headers": { "Location": "https://youtu.be/WWo5yBSEM44" }}
-  ]
-}
