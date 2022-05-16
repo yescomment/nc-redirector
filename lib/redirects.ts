@@ -17,7 +17,7 @@ export default async function redirects(req: NextRequest) {
 
   // Find the redirect from the local JSON file, do note this JSON shouldn't be
   // large, as the space in Edge Functions is quite limited
-  const localRedirect = (redirectsJson as LocalRedirects)[url.hostname]
+  const localRedirect = (redirectsJson as LocalRedirects)[req.nextUrl.hostname]
   if (localRedirect) {
     const destUrl = `${localRedirect.destination}?l=${Date.now() - start}`
     return NextResponse.redirect(destUrl)
