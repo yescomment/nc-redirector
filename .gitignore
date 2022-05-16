@@ -2,6 +2,9 @@
 
 ### Node ###
 
+# Next.js TypeScript
+next-env.d.ts
+
 # Logs
 logs
 *.log
