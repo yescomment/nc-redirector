@@ -1,7 +1,7 @@
 // eslint-disable-next-line @next/next/no-server-import-in-page
 import { NextRequest, NextResponse } from 'next/server'
 // import { upstashEdge } from './upstash'
-import redirectsJson from '/redirects.json'
+const redirectsJson = require('/redirects.json')
 
 type LocalRedirects = {
   [k: string]:
