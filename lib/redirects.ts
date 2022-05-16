@@ -13,15 +13,14 @@ type LocalRedirects = {
 }
 
 export default async function redirects(req: NextRequest) {
-  let url = req.nextUrl.clone()
   let start = Date.now()
 
   // Find the redirect from the local JSON file, do note this JSON shouldn't be
   // large, as the space in Edge Functions is quite limited
   const localRedirect = (redirectsJson as LocalRedirects)[url.hostname]
   if (localRedirect) {
-    url = `${localRedirect.destination}?l=${Date.now() - start}`
-    return NextResponse.redirect(url)
+    const destUrl = `${localRedirect.destination}?l=${Date.now() - start}`
+    return NextResponse.redirect(destUrl)
   }
 
   // start = Date.now()
