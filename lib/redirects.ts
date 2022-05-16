@@ -1,7 +1,7 @@
 // eslint-disable-next-line @next/next/no-server-import-in-page
 import { NextRequest, NextResponse } from 'next/server'
 // import { upstashEdge } from './upstash'
-import redirectsJson from '@/redirects.json'
+import redirectsJson from '/redirects.json'
 
 type LocalRedirects = {
   [k: string]:
@@ -13,14 +13,14 @@ type LocalRedirects = {
 }
 
 export default async function redirects(req: NextRequest) {
-  const url = req.nextUrl.clone()
+  let url = req.nextUrl.clone()
   let start = Date.now()
 
   // Find the redirect from the local JSON file, do note this JSON shouldn't be
   // large, as the space in Edge Functions is quite limited
-  const localRedirect = (redirectsJson as LocalRedirects)[url.pathname]
+  const localRedirect = (redirectsJson as LocalRedirects)[url.hostname]
   if (localRedirect) {
-    url.pathname = `${localRedirect.destination}?l=${Date.now() - start}`
+    url = `${localRedirect.destination}?l=${Date.now() - start}`
     return NextResponse.redirect(url)
   }
 
