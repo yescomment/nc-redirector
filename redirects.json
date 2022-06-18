@@ -2,6 +2,9 @@
   "cobford.com": {
    "destination": "https://jacobford.com"
   },
+  "old.museum": {
+    "destination": "https://web.archive.org/web/20020618/http://newmuseum.org/"
+  },
   "higginsgear.com": {
     "destination": "https://youtu.be/WWo5yBSEM44"
   },
