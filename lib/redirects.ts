@@ -1,5 +1,6 @@
 // eslint-disable-next-line @next/next/no-server-import-in-page
 import { NextRequest, NextResponse } from 'next/server'
+import parseTpl from './parse-template-literal';
 // import { upstashEdge } from './upstash'
 const redirectsJson = require('/redirects.json')
 
@@ -16,7 +17,10 @@ export default async function redirects(req: NextRequest) {
   const localRedirect = (redirectsJson as LocalRedirects)[req.nextUrl.hostname]
   if (localRedirect) {
     if (localRedirect.parse) {
-      localRedirect.destination = eval("`" + localRedirect.destination + "`")
+      localRedirect.destination = parseTpl(localRedirect.destination, {
+        WBM_20YEARSAGO: new Date().toISOString().slice(0,10).replaceAll('-','') - 200000
+        // add more parsable replacements here
+      })
     }
     return NextResponse.redirect(localRedirect.destination)
   } else {

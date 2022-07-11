@@ -1,7 +1,7 @@
 {
   "old.museum": {
     "parse": true,
-    "destination": "https://web.archive.org/web/${new Date().toISOString().slice(0,10).replaceAll('-','') - 100000}/http://newmuseum.org/"
+    "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
   },
   "higginsgear.com": {
     "destination": "https://youtu.be/WWo5yBSEM44"
