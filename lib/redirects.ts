@@ -7,7 +7,6 @@ type LocalRedirects = {
   [k: string]:
     | {
         destination: string
-        permanent: boolean
       }
     | undefined
 }
