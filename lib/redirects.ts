@@ -14,6 +14,9 @@ type LocalRedirects = {
 export default async function redirects(req: NextRequest) {
   const localRedirect = (redirectsJson as LocalRedirects)[req.nextUrl.hostname]
   if (localRedirect) {
+    if localRedirect.parse {
+      localRedirect.destination = eval("`" + localRedirect.destination + "`")
+    }
     return NextResponse.redirect(localRedirect.destination)
   } else {
     return NextResponse.next()
