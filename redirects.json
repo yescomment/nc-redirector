@@ -1,6 +1,7 @@
 {
   "old.museum": {
-    "destination": "https://web.archive.org/web/20020618/http://newmuseum.org/"
+    "parse": true,
+    "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
   },
   "higginsgear.com": {
     "destination": "https://youtu.be/WWo5yBSEM44"
