@@ -14,6 +14,8 @@ type LocalRedirects = {
     | undefined
 }
 
+const client = new Client()
+
 export default async function redirects(req: NextRequest) {
   const localRedirect = (redirectsJson as LocalRedirects)[req.nextUrl.hostname]
   if (localRedirect) {
@@ -24,7 +26,7 @@ export default async function redirects(req: NextRequest) {
       })
     }
     // log to Axiom
-    Client.datasets.ingest('nc-redirector',{
+    client.datasets.ingest('nc-redirector',{
       request: req,
       from: req.url,
       to: localRedirect.destination
