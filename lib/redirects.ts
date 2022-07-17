@@ -22,7 +22,7 @@ export default async function redirects(req: NextRequest) {
         // add more parsable replacements here
       })
     }
-    console.log(`Request for ${req.nextUrl.url} redirected to ${localRedirect.destination}`)
+    console.log(`Request for ${req.url} redirected to ${localRedirect.destination}`)
     return NextResponse.redirect(localRedirect.destination)
   } else {
     return NextResponse.next()
