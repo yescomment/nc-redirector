@@ -26,11 +26,12 @@ export default async function redirects(req: NextRequest) {
       })
     }
     // log to Axiom
-    client.datasets.ingest('nc-redirector',{
-      request: req,
+    const logData = {
       from: req.url,
-      to: localRedirect.destination
-    })
+      to: localRedirect.destination,
+      request: req
+    }
+    client.datasets.ingest('nc-redirector', logData, datasets.ContentType.JSON, datasets.ContentEncoding.Identity)
     console.log(`Request for ${req.url} redirected to ${localRedirect.destination}`)
     return NextResponse.redirect(localRedirect.destination)
   } else {
