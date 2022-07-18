@@ -7,4 +7,4 @@ async function middleware(req: NextRequest) {
   return await redirects(req)
 }
 
-export withAxiom(middleware)
+export default withAxiom(middleware)
