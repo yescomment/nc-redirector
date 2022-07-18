@@ -1,7 +1,10 @@
 import type { NextRequest } from 'next/server'
 import redirects from '../lib/redirects'
+import { log, withAxiom } from 'next-axiom';
 
-export async function middleware(req: NextRequest) {
-  console.info('Incoming request for', req.nextUrl.hostname)
+async function middleware(req: NextRequest) {
+  log.info(`Incoming request for ${req.nextUrl.hostname}`)
   return await redirects(req)
 }
+
+export withAxiom(middleware)
