@@ -1,4 +1,25 @@
 {
+  "name": "nc-redirector",
+  "version": "1.0.0",
+  "description": "NextJS middleware domain redirection engine for my top-tier collection of top-level domains",
+  "homepage": "https://github.com/yescomment/nc-redirector#readme",
+  "bugs": {
+    "url": "https://github.com/yescomment/nc-redirector/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yescomment/nc-redirector.git"
+  },
+  "license": "ISC",
+  "author": "Jacob Ford",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "test": "next lint"
+  },
   "dependencies": {
     "next": "^12.1.6",
     "next-axiom": "^0.10.0"
@@ -9,26 +30,5 @@
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2",
     "typescript": "^4.6.4"
-  },
-  "name": "nc-redirector",
-  "description": "NextJS middleware domain redirection engine for my top-tier collection of top-level domains",
-  "version": "1.0.0",
-  "main": "next.config.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "test": "next lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yescomment/nc-redirector.git"
-  },
-  "author": "Jacob Ford",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yescomment/nc-redirector/issues"
-  },
-  "homepage": "https://github.com/yescomment/nc-redirector#readme"
+  }
 }
