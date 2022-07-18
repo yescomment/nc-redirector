@@ -1,8 +1,6 @@
-// eslint-disable-next-line @next/next/no-server-import-in-page
 import { NextRequest, NextResponse } from 'next/server'
 import parseTpl from './parse-template-literal';
 import { log } from 'next-axiom';
-// import { upstashEdge } from './upstash'
 const redirectsJson = require('/redirects.json')
 
 type LocalRedirects = {
