@@ -1,7 +1,7 @@
 // eslint-disable-next-line @next/next/no-server-import-in-page
 import { NextRequest, NextResponse } from 'next/server'
 import parseTpl from './parse-template-literal';
-import Client, { datasets } from '@axiomhq/axiom-node';
+import { log } from 'next-axiom';
 // import { upstashEdge } from './upstash'
 const redirectsJson = require('/redirects.json')
 
@@ -13,8 +13,6 @@ type LocalRedirects = {
       }
     | undefined
 }
-
-const client = new Client()
 
 export default async function redirects(req: NextRequest) {
   const localRedirect = (redirectsJson as LocalRedirects)[req.nextUrl.hostname]
@@ -31,8 +29,7 @@ export default async function redirects(req: NextRequest) {
       to: localRedirect.destination,
       request: req
     }
-    client.datasets.ingest('nc-redirector', logData, datasets.ContentType.JSON, datasets.ContentEncoding.Identity)
-    console.log(`Request for ${req.url} redirected to ${localRedirect.destination}`)
+    log.info(`Request for ${req.url} redirected to ${localRedirect.destination}`, logData)
     return NextResponse.redirect(localRedirect.destination)
   } else {
     return NextResponse.next()
