@@ -20,5 +20,11 @@
   },
   "cobford.com": {
    "destination": "https://jacobford.com"
+  },
+  "yell.nyc": {
+    "destination": "https://openvcrnight.yell.nyc"
+  },
+  "openvcrnight.yell.nyc": {
+    "destination": "https://www.wonderville.nyc/events"
   }
 }
