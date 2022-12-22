@@ -3,6 +3,10 @@
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
   },
+  "twitter.museum": {
+    "parse": true,
+    "destination": "https://web.archive.org/web/${WBM_10YEARSAGO}/http://twitter.com/"
+  },
   "higginsgear.com": {
     "destination": "https://youtu.be/WWo5yBSEM44"
   },
