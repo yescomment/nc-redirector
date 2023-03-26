@@ -6,6 +6,7 @@ export default function TableOfContents({ redirects }) {
     <article>
       <Head>
         <title>Redirects of Jacob Ford</title>
+        <script src="https://cdn.usefathom.com/script.js" data-site="VZBLSIXI" defer></script>
       </Head>
       <p>I collect domains, for <a href="//nocomment.llc">business</a> + pleasure.</p>
       <p>Examples include: fun new TLDs (.museum), ancient and forgotten campaigns (owlcitygalaxy.com), and sniping from the background of fiction (higginsgear.com, chirpeo.com), and pranks.</p>
