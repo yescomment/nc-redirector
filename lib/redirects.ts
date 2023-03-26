@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import parseTpl from './parse-template-literal';
-import { log } from 'next-axiom';
 const redirectsJson = require('/redirects.json')
 
 type LocalRedirects = {
@@ -27,7 +26,7 @@ export default async function redirects(req: NextRequest) {
       to: localRedirect.destination,
       request: req
     }
-    log.info(`Request for ${req.url} redirected to ${localRedirect.destination}`, logData)
+    console.info(`Request for ${req.url} redirected to ${localRedirect.destination}`, logData)
     return NextResponse.redirect(localRedirect.destination)
   } else {
     return NextResponse.next()
