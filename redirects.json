@@ -1,4 +1,7 @@
 {
+  "unitof.com": {
+    "destination": "https://jacobford.com"
+  },
   "old.museum": {
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
