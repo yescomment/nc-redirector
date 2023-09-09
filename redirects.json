@@ -2,6 +2,9 @@
   "unitof.com": {
     "destination": "https://jacobford.com"
   },
+  "big.tennis": {
+    "destination": "https://overcast.fm/+s1fAI1t2o/03:16"
+  },
   "old.museum": {
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
