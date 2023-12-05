@@ -31,6 +31,9 @@
   "www.geistlist.email": {
     "destination": "https://geistlist.email"
   },
+  "www.yell.nyc": {
+    "destination": "https://yell.nyc"
+  }, 
   "yell.nyc": {
     "destination": "https://celebrate.anthemawards.com/PublicVoting#/2024/education-art-culture/awareness-media-categories/"
   },
