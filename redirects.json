@@ -11,6 +11,9 @@
   "big.tennis": {
     "destination": "https://www.linkedin.com/in/kristin-labuz-ab28b15"
   },
+  "www.big.tennis": {
+    "destination": "https://big.tennis"
+  },
   "old.museum": {
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
