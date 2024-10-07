@@ -17,6 +17,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "vercel-build": "next build",
     "dev": "next dev",
     "test": "next lint"
   },
