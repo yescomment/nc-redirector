@@ -72,5 +72,8 @@
   },
   "owlcitygalaxy.com": {
     "destination": "https://web.archive.org/web/20111026132507/http://owlcitygalaxy.pushexp.com/welcome/"
+  },
+  "www.owlcitygalaxy.com": {
+    "destination": "https://owlcitygalaxy.com"
   }
 }
