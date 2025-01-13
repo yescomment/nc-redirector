@@ -1,20 +1,7 @@
 {
-  "unitof.com": {
-    "destination": "https://jacobford.com"
-  },
-  "big.tennis": {
-    "destination": "https://www.linkedin.com/in/kristin-labuz-ab28b15"
-  },
-  "www.big.tennis": {
-    "destination": "https://big.tennis"
-  },
   "old.museum": {
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
-  },
-  "twitter.museum": {
-    "parse": true,
-    "destination": "https://web.archive.org/web/${WBM_10YEARSAGO}/http://twitter.com/"
   },
   "higginsgear.com": {
     "destination": "https://youtu.be/WWo5yBSEM44"
@@ -25,20 +12,17 @@
   "manhol.es": {
     "destination": "https://en.wikipedia.org/wiki/Talk:List_of_New_York_City_manhole_cover_abbreviations#The_Mysterious_D.B.W."
   },
+  "deprivatized.com": {
+    "destination": "https://www.versobooks.com/books/3927-internet-for-the-people"
+  },
   "thebeyonce.com": {
     "destination": "https://www.zillow.com/homedetails/11-N-Morris-St-Shippensburg-PA-17257/9277329_zpid/"
   },
   "cobford.com": {
    "destination": "https://jacobford.com"
   },
-  "www.geistlist.email": {
-    "destination": "https://geistlist.email"
-  },
-  "www.yell.nyc": {
-    "destination": "https://yell.nyc"
-  },
   "yell.nyc": {
-    "destination": "https://celebrate.anthemawards.com/PublicVoting#/2024/education-art-culture/awareness-media-categories/"
+    "destination": "https://tiltify.com/@unitof/getthatcoin/"
   },
   "openvcrnight.yell.nyc": {
     "destination": "https://www.wonderville.nyc/events/open-vcr-night-august-29-2022"
@@ -46,34 +30,7 @@
   "grieftees.com": {
     "destination": "https://journal.burningman.org/2019/03/philosophical-center/tenprinciples/strike-a-pose-part-1/"
   },
-  "small.museum": {
-    "destination": "https://jacobford.com"
-  },
-  "nyc.museum": {
-    "destination": "https://cityreliquary.org"
-  },
-  "ford.museum": {
-    "destination": "https://valerie.memorial"
-  },
-  "www.ford.museum": {
-    "destination": "https://ford.museum"
-  },
-  "gregnant.mom": {
-    "destination": "https://forms.gle/k3pSCurZ2idNcdnW7"
-  },
-  "www.gregnant.mom": {
-    "destination": "https://gregnant.mom"
-  },
-  "schamonchi.space": {
-    "destination": "https://www.icloud.com/sharedalbum/#B2AJr1PPdGA64Yk"
-  },
-  "www.schamonchi.space": {
-    "destination": "https://schamonchi.space"
-  },
-  "owlcitygalaxy.com": {
-    "destination": "https://web.archive.org/web/20111026132507/http://owlcitygalaxy.pushexp.com/welcome/"
-  },
-  "www.owlcitygalaxy.com": {
-    "destination": "https://owlcitygalaxy.com"
+  "big.tennis": {
+    "destination": "https://
   }
 }

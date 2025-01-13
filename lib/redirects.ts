@@ -17,8 +17,8 @@ export default async function redirects(req: NextRequest) {
   if (localRedirect) {
     if (localRedirect.parse) {
       localRedirect.destination = parseTpl(localRedirect.destination, {
-        WBM_10YEARSAGO: `${new Date().getFullYear() - 10}${new Date().toISOString().slice(4,10).replaceAll('-','')}`,
         WBM_20YEARSAGO: `${new Date().getFullYear() - 20}${new Date().toISOString().slice(4,10).replaceAll('-','')}`
+        // add more parsable replacements here
       })
     }
     // log to Axiom
