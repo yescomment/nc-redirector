@@ -8,6 +8,9 @@
   "www.big.tennis": {
     "destination": "https://big.tennis"
   },
+  "old.museum/february8": {
+    "destination": "https://photos.app.goo.gl/zzHaEzMZX1mRvjqA7"
+  },
   "old.museum": {
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_20YEARSAGO}/http://newmuseum.org/"
@@ -38,7 +41,7 @@
     "destination": "https://yell.nyc"
   },
   "yell.nyc": {
-    "destination": "https://celebrate.anthemawards.com/PublicVoting#/2024/education-art-culture/awareness-media-categories/"
+    "destination": "https://old.museum/february8"
   },
   "openvcrnight.yell.nyc": {
     "destination": "https://www.wonderville.nyc/events/open-vcr-night-august-29-2022"
