@@ -19,9 +19,6 @@
     "parse": true,
     "destination": "https://web.archive.org/web/${WBM_10YEARSAGO}/http://twitter.com/"
   },
-  "higginsgear.com": {
-    "destination": "https://youtu.be/WWo5yBSEM44"
-  },
   "traindropper.com": {
     "destination": "http://www.hrwiki.org/wiki/Edgar#Edga_Jr."
   },
@@ -46,9 +43,6 @@
   "openvcrnight.yell.nyc": {
     "destination": "https://www.wonderville.nyc/events/open-vcr-night-august-29-2022"
   },
-  "grieftees.com": {
-    "destination": "https://journal.burningman.org/2019/03/philosophical-center/tenprinciples/strike-a-pose-part-1/"
-  },
   "small.museum": {
     "destination": "https://jacobford.com"
   },
@@ -60,12 +54,6 @@
   },
   "www.ford.museum": {
     "destination": "https://ford.museum"
-  },
-  "gregnant.mom": {
-    "destination": "https://forms.gle/k3pSCurZ2idNcdnW7"
-  },
-  "www.gregnant.mom": {
-    "destination": "https://gregnant.mom"
   },
   "schamonchi.space": {
     "destination": "https://www.icloud.com/sharedalbum/#B2AJr1PPdGA64Yk"
