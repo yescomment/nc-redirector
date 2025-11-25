@@ -2,6 +2,12 @@
   "unitof.com": {
     "destination": "https://jacobford.com"
   },
+  "unitofthought.com": {
+    "destination": "https://unitof.com"
+  },
+  "www.unitofthought.com": {
+    "destination": "https://unitofthought.com"
+  },
   "february8.old.museum": {
     "destination": "https://photos.app.goo.gl/zzHaEzMZX1mRvjqA7"
   },
