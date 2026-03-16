@@ -52,6 +52,9 @@
   "www.schamonchi.space": {
     "destination": "https://schamonchi.space"
   },
+  "my-deployment-ji2fjij2.vercel.app": {
+    "destination": "https://grep.app/vercel/vercel/main/packages/cli/src/commands/inspect/command.ts?q=my-deployment-ji2fjij2.vercel.app#L43"
+  },
   "owlcitygalaxy.com": {
     "destination": "https://web.archive.org/web/20111026132507/http://owlcitygalaxy.pushexp.com/welcome/"
   },
