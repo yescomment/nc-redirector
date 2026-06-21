@@ -1,4 +1,10 @@
 {
+  "live.jacobford.com": {
+    "destination": "https://www.youtube.com/@DataVandals/live"
+  },
+  "www.live.jacobford.com": {
+    "destination": "https://live.jacobford.com"
+  },
   "unitof.com": {
     "destination": "https://jacobford.com"
   },
