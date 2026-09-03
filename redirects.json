@@ -55,8 +55,14 @@
   "schamonchi.space": {
     "destination": "https://www.icloud.com/sharedalbum/#B2AJr1PPdGA64Yk"
   },
+  "schamonchi.nyc": {
+    "destination": "https://www.icloud.com/sharedalbum/#B2AJr1PPdGA64Yk"
+  },
   "www.schamonchi.space": {
     "destination": "https://schamonchi.space"
+  },
+  "www.schamonchi.nyc": {
+    "destination": "https://schamonchi.nyc"
   },
   "my-deployment-ji2fjij2.vercel.app": {
     "destination": "https://grep.app/vercel/vercel/main/packages/cli/src/commands/inspect/command.ts?q=my-deployment-ji2fjij2.vercel.app#L43"
